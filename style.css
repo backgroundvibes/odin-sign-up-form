@@ -1,0 +1,13 @@
+.banner, .form, .header, .mid, .footer {
+    display: flex;
+    border: 3px solid red;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    flex-direction: column;
+}
