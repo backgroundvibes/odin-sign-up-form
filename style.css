@@ -32,7 +32,8 @@ form {
 }
 
 img {
-    max-width: 440px;
+    max-width: 27rem;
+    border: 3px solid yellow;
 }
 
 form > div {
@@ -42,4 +43,20 @@ form > div {
 form > div > div {
     display: flex;
     flex-direction: column;
+}
+
+.banner-textbox {
+    display: flex;
+    position: absolute;
+    top: 10rem;
+    width: 27rem;
+    border: 3px solid green;
+    background-color: white;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner > div > img {
+    max-width: 70px;
 }
