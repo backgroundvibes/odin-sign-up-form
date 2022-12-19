@@ -26,6 +26,20 @@ body {
     flex-direction: column;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 img {
     max-width: 440px;
+}
+
+form > div {
+    display: flex;
+}
+
+form > div > div {
+    display: flex;
+    flex-direction: column;
 }
