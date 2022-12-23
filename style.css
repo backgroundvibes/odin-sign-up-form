@@ -44,6 +44,10 @@ body {
     padding: 1rem 3rem 1rem 1rem;
 }
 
+.mid > h3 {
+    margin-bottom: 1rem;
+}
+
 .footer {
     flex-direction: column;
     align-items: flex-start;
@@ -70,6 +74,9 @@ body {
 form {
     display: flex;
     flex-direction: column;
+    font-size: xx-small;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
 }
 
 img {
@@ -85,6 +92,13 @@ form > div {
 form > div > div {
     display: flex;
     flex-direction: column;
+}
+
+input {
+    border: 1px solid chocolate;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
 }
 
 .banner-textbox {
@@ -111,7 +125,7 @@ form > div > div {
 #watermark {
     display: flex;
     position: absolute;
-    color: lightcoral;
+    color: chocolate;
     font-size: 10px;
     top: 29rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
